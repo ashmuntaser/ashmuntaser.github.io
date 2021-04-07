@@ -1,785 +1,168 @@
 <!DOCTYPE html>
-<html lang="zxx" class="no-js">
+<html lang="en">
   <head>
-    <!-- Mobile Specific Meta -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- meta character set -->
     <meta charset="UTF-8" />
-    <!-- Site Title -->
-    <title>YOUR NAME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- =====BOX ICONS===== -->
     <link
-      href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700"
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900"
-      rel="stylesheet"
-    />
-    <!--
-			CSS
-			============================================= -->
-    <link rel="stylesheet" href="css/linearicons.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/nice-select.css" />
-    <link rel="stylesheet" href="css/animate.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.css" />
-    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Ashraf Elmontaser</title>
   </head>
-
   <body>
-    <!-- Start Preloader Area -->
-    <div class="preloader-area">
-      <div class="loader-box">
-        <div class="loader"></div>
-      </div>
-    </div>
-    <!-- End Preloader Area -->
-
-    <!-- Start Header Area -->
-    <header id="header">
-      <div class="container main-menu">
-        <div class="row align-items-center d-flex">
-          <div id="logo">
-            <a href="#"
-              ><img
-                class="profile-img"
-                src="img/profile.jpg"
-                width="60px;"
-                alt=""
-                title=""
-            /></a>
-          </div>
-          <nav id="nav-menu-container">
-            <ul class="nav-menu">
-              <li class=""><a class="active" href="index.html">Home</a></li>
-              <li><a href="#aboutMe">About</a></li>
-              <li><a href="#work">Projects</a></li>
-              <li>
-                <a href="#">Contact</a>
-              </li>
-            </ul>
-          </nav>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Ashraf Elmontaser</a>
         </div>
-      </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
     </header>
-    <!-- End Header Area -->
 
-    <!-- start banner Area -->
-    <section class="home-banner-area">
-      <div class="container">
-        <div class="row fullscreen d-flex align-items-center">
-          <div class="banner-content col-lg-6 col-md-12 justify-content-center">
-            <div
-              class="me wow fadeInDown"
-              data-wow-duration="1s"
-              data-wow-delay="1.2s"
-            >
-              It's me
-            </div>
-            <h1
-              class="wow fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay="1.7s"
-            >
-              YOUR NAME
-            </h1>
-            <div
-              class="designation mb-50 wow fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay="2.1s"
-            >
-              Games & apps
-              <span class="designer">Developer</span>
-              and Co-founder of
-              <span class="developer">Jetlight Studio</span>
-            </div>
-            <div class="footer-social">
-              <a href="mailto:abs@ga.com"><i class="fa fa-envelope"></i></a>
-              <a href="your github link"><i class="fa fa-github"></i></a>
-              <a href="your linkedin link"><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-          <div class="banner-img col-lg-6 col-md-6 align-self-top text-center">
-            <img class="img-fluid profile-img" src="img/profile.jpg" alt="" />
-          </div>
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I'am <span class="home__title-color">Ashraf Elmontaser</span><br />
+            Cloud Engineer
+          </h1>
         </div>
-      </div>
-    </section>
-    <!-- End banner Area -->
-
-    <!-- Start brands Area -->
-
-    <!-- End brands Area -->
-
-    <!-- Start About Area -->
-    <section id="aboutMe" class="about-area section-gap">
-      <div class="container">
-        <div class="row align-items-center justify-content-between">
-          <div class="col-lg-6 about-left">
-            <img class="img-fluid" src="img/aboutMe.svg" alt="" />
-          </div>
-          <div class="col-lg-5 col-md-12 about-right">
-            <div class="section-title">
-              <h2>About me</h2>
-            </div>
-            <div class="mb-50 wow fadeIn" data-wow-duration=".8s">
-              <p>
-                My name is Oussama Ahmed BONNOR and I am a computer science
-                student from Oran-1 University of Applied Sciences. I am the
-                co-founder of Jetlight Studio and a proud member of the
-                scientific club, "Team Open Minds". I am a programmer and a game
-                developer. I make mobile and desktop as well as augmented
-                reality apps.
-              </p>
-              <p>
-                I am a great team player, a hardworking developer and I'm a
-                flexible, social and open person and, above all, I try my
-                hardest to make each experience as pleasant and as memorable as
-                possible to everyone around me.
-              </p>
-            </div>
-            <a
-              href="#contactMe"
-              class="primary-btn white"
-              data-text="Contact me"
-            >
-              <span>C</span>
-              <span>o</span>
-              <span>n</span>
-              <span>t</span>
-              <span>a</span>
-              <span>c</span>
-              <span>t</span>
-              <span> </span>
-              <span>m</span>
-              <span>e</span>
-            </a>
-            <a
-              href="./Profile.pdf"
-              download
-              class="primary-btn"
-              data-text="Resume"
-            >
-              <span>R</span>
-              <span>e</span>
-              <span>s</span>
-              <span>u</span>
-              <span>m</span>
-              <span>e</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End About Area -->
-
-    <!-- Start Work Area Area -->
-    <section class="work-area section-gap-top section-gap-bottom-90" id="work">
-      <div class="container">
-        <div class="row d-flex justify-content-between align-items-end mb-80">
-          <div class="col-lg-6">
-            <div class="section-title">
-              <h2>Projects</h2>
-              <p>
-                Each one of my projects has a little special part of me in it,
-                here' s a selection of hand-picked creation of mine.
-              </p>
-            </div>
+        <div>
+          <h2>Contact</h2>
+          <div class="home__social">
+            <a href="https://www.linkedin.com/in/ashraf-elmontaser-a02b771a/" class="home__social-icon"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://github.com/ashmuntaser" class="home__social-icon"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a href="mailto:ashmuntaser@yahoo.com" class="home__social-icon"
+              ><i class="bx bx-envelope"></i
+            ></a>
           </div>
         </div>
 
-        <div class="filters-content">
-          <div class="row grid">
-            <div
-              class="single-work col-lg-4 col-md-6 col-sm-12 all games wow fadeInUp"
-              data-wow-duration="2s"
-            >
-              <div class="relative">
-                <div class="thumb">
-                  <div class="overlay overlay-bg"></div>
-                  <img
-                    class="image img-fluid"
-                    src="img/projects/catcheep.png"
-                    alt=""
-                  />
-                </div>
-                <div class="middle">
-                  <h4>Catcheep</h4>
-                  <div class="cat">Indie 2D mobile game</div>
-                </div>
-              </div>
-            </div>
+        <div class="home__img">
+          <img src="assets/img/ash.jpg" alt="" />
+        </div>
+      </section>
 
-            <div
-              class="single-work col-lg-4 col-md-6 col-sm-12 all games wow fadeInUp"
-              data-wow-duration="2s"
-            >
-              <div class="relative">
-                <div class="thumb">
-                  <div class="overlay overlay-bg"></div>
-                  <img
-                    class="image img-fluid"
-                    src="img/projects/chasing_planes.gif"
-                    alt=""
-                  />
-                </div>
-                <div class="middle">
-                  <h4>Chasing Planes</h4>
-                  <div class="cat">Indie 2D mobile game</div>
-                </div>
-              </div>
-            </div>
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
 
-            <div
-              class="single-work col-lg-4 col-md-6 col-sm-12 all games wow fadeInUp"
-              data-wow-duration="2s"
-            >
-              <div class="relative">
-                <div class="thumb">
-                  <div class="overlay overlay-bg"></div>
-                  <img
-                    class="image img-fluid"
-                    src="img/projects/aa.png"
-                    alt=""
-                  />
-                </div>
-                <div class="middle">
-                  <h4>AA Replica</h4>
-                  <div class="cat">Indie 2D mobile game</div>
-                </div>
-              </div>
-            </div>
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/ash.jpg" alt="" />
+          </div>
 
-            <div
-              class="single-work col-lg-4 col-md-6 col-sm-12 all games wow fadeInUp"
-              data-wow-duration="2s"
-            >
-              <div class="relative">
-                <div class="thumb">
-                  <div class="overlay overlay-bg"></div>
-                  <img
-                    class="image img-fluid"
-                    src="img/projects/ice_fox.png"
-                    alt=""
-                  />
-                </div>
-                <div class="middle">
-                  <h4>Ice fox</h4>
-                  <div class="cat">Indie 2D mobile game</div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="single-work col-lg-4 col-md-6 col-sm-12 all games wow fadeInUp"
-              data-wow-duration="2s"
-            >
-              <div class="relative">
-                <div class="thumb">
-                  <div class="overlay overlay-bg"></div>
-                  <img
-                    class="image img-fluid"
-                    src="img/projects/rocket_ride.png"
-                    alt=""
-                  />
-                </div>
-                <div class="middle">
-                  <h4>Rocket Ride</h4>
-                  <div class="cat">Indie 2D mobile game</div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="single-work col-lg-4 col-md-6 col-sm-12 all games wow fadeInUp"
-              data-wow-duration="2s"
-            >
-              <div class="relative">
-                <div class="thumb">
-                  <div class="overlay overlay-bg"></div>
-                  <img
-                    class="image img-fluid"
-                    src="img/projects/line_rider.png"
-                    alt=""
-                  />
-                </div>
-                <div class="middle">
-                  <h4>Line Rider</h4>
-                  <div class="cat">Indie 2D mobile game</div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="single-work col-lg-4 col-md-6 col-sm-12 all games wow fadeInUp"
-              data-wow-duration="2s"
-            >
-              <div class="relative">
-                <div class="thumb">
-                  <div class="overlay overlay-bg"></div>
-                  <img
-                    class="image img-fluid"
-                    src="img/projects/Reaper.png"
-                    alt=""
-                  />
-                </div>
-                <div class="middle">
-                  <h4>Reaper</h4>
-                  <div class="cat">Indie 2D mobile game</div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="single-work col-lg-4 col-md-6 col-sm-12 all mobile wow fadeInUp"
-              data-wow-duration="2s"
-              data-wow-delay="0.2s"
-            >
-              <div class="relative">
-                <div class="thumb">
-                  <div class="overlay overlay-bg"></div>
-                  <img
-                    class="image img-fluid"
-                    src="img/projects/jetstory.gif"
-                    alt=""
-                  />
-                </div>
-                <div class="middle">
-                  <h4>JetStory</h4>
-                  <div class="cat">Mobile app (Android)</div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="single-work col-lg-4 col-md-6 col-sm-12 all mobile wow fadeInUp"
-              data-wow-duration="2s"
-              data-wow-delay="0.2s"
-            >
-              <div class="relative">
-                <div class="thumb">
-                  <div class="overlay overlay-bg"></div>
-                  <img
-                    class="image img-fluid"
-                    src="img/projects/jetTunes_mobile.png"
-                    alt=""
-                  />
-                </div>
-                <div class="middle">
-                  <h4>JetTunes Mobile</h4>
-                  <div class="cat">Mobile app (Android)</div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="single-work col-lg-4 col-md-6 col-sm-12 all mobile wow fadeInUp"
-              data-wow-duration="2s"
-              data-wow-delay="0.2s"
-            >
-              <div class="relative">
-                <div class="thumb">
-                  <div class="overlay overlay-bg"></div>
-                  <img
-                    class="image img-fluid"
-                    src="img/projects/jetShop.gif"
-                    alt=""
-                  />
-                </div>
-                <div class="middle">
-                  <h4>JetShop</h4>
-                  <div class="cat">Mobile app (Flutter)</div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="single-work col-lg-4 col-md-6 col-sm-12 all mobile wow fadeInUp"
-              data-wow-duration="2s"
-              data-wow-delay="0.2s"
-            >
-              <div class="relative">
-                <div class="thumb">
-                  <div class="overlay overlay-bg"></div>
-                  <img
-                    class="image img-fluid"
-                    src="img/projects/brain_power.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="middle">
-                  <h4>Brain Power</h4>
-                  <div class="cat">Mobile app (Xamarin)</div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="single-work col-lg-4 col-md-6 col-sm-12 all mobile wow fadeInUp"
-              data-wow-duration="2s"
-              data-wow-delay="0.2s"
-            >
-              <div class="relative">
-                <div class="thumb">
-                  <div class="overlay overlay-bg"></div>
-                  <img
-                    class="image img-fluid"
-                    src="img/projects/find_the_letter.png"
-                    alt=""
-                  />
-                </div>
-                <div class="middle">
-                  <h4>Find the Letter</h4>
-                  <div class="cat">Mobile app (Android)</div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="single-work col-lg-4 col-md-6 col-sm-12 all mobile wow fadeInUp"
-              data-wow-duration="2s"
-              data-wow-delay="0.2s"
-            >
-              <div class="relative">
-                <div class="thumb">
-                  <div class="overlay overlay-bg"></div>
-                  <img
-                    class="image img-fluid"
-                    src="img/projects/Fitness.png"
-                    alt=""
-                  />
-                </div>
-                <div class="middle">
-                  <h4>Fitness app prototype</h4>
-                  <div class="cat">Mobile app (Flutter)</div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="single-work col-lg-4 col-md-6 col-sm-12 all desktop wow fadeInUp"
-              data-wow-duration="2s"
-              data-wow-delay="0.4s"
-            >
-              <div class="relative">
-                <div class="thumb">
-                  <div class="overlay overlay-bg"></div>
-                  <img
-                    class="image img-fluid"
-                    src="img/projects/jetGramPage.png"
-                    alt=""
-                  />
-                </div>
-                <div class="middle">
-                  <h4>JetGram</h4>
-                  <div class="cat">Telegram Clone (Javafx)</div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="single-work col-lg-4 col-md-6 col-sm-12 all desktop wow fadeInUp"
-              data-wow-duration="2s"
-              data-wow-delay="0.4s"
-            >
-              <div class="relative">
-                <div class="thumb">
-                  <div class="overlay overlay-bg"></div>
-                  <img
-                    class="image img-fluid"
-                    src="img/projects/jetGramText.png"
-                    alt=""
-                  />
-                </div>
-                <div class="middle">
-                  <h4>JetGram</h4>
-                  <div class="cat">Telegram Clone (Javafx)</div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="single-work col-lg-4 col-md-6 col-sm-12 all desktop wow fadeInUp"
-              data-wow-duration="2s"
-              data-wow-delay="0.4s"
-            >
-              <div class="relative">
-                <div class="thumb">
-                  <div class="overlay overlay-bg"></div>
-                  <img
-                    class="image img-fluid"
-                    src="img/projects/JetTunes.png"
-                    alt=""
-                  />
-                </div>
-                <div class="middle">
-                  <h4>JetTunes Desktop</h4>
-                  <div class="cat">Music Player (Javafx)</div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="single-work col-lg-4 col-md-6 col-sm-12 all desktop wow fadeInUp"
-              data-wow-duration="2s"
-              data-wow-delay="0.4s"
-            >
-              <div class="relative">
-                <div class="thumb">
-                  <div class="overlay overlay-bg"></div>
-                  <img
-                    class="image img-fluid"
-                    src="img/projects/fun_facts_calculator.png"
-                    alt=""
-                  />
-                </div>
-                <div class="middle">
-                  <h4>Fun Facts Calculator</h4>
-                  <div class="cat">Calculator (WPF)</div>
-                </div>
-              </div>
-            </div>
+          <div>
+            <h2 class="about__subtitle">I'am Ashraf</h2>
+            <p class="about__text">
+			Being a bright, talented, and ambitious individual seeking a career
+			in engineering. I have a strong technical background and possess 
+			self-discipline and the ability to work with the minimum of 
+			supervision. I can play a key role throughout the software development 
+			/ support life cycle of a project to ensure that quality solutions meet
+			business objectives. Possessing a good team spirit, deadline orientated
+			and having the ability to organise and present complex solutions clearly
+			and accurately. Looking for a suitable developer position with an exciting
+			and innovative company that offers room for progression.
+              
+            </p>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- End Work Area Area -->
+      </section>
 
-    <!-- Start Job History Area Area -->
-    <section class="job-area section-gap-top section-gap-bottom-90">
-      <div class="container">
-        <div class="row d-flex">
-          <div class="col-lg-12">
-            <div class="section-title">
-              <h2>Job Experience</h2>
-            </div>
-          </div>
-        </div>
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
 
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="single-job">
-              <div class="top-sec d-flex justify-content-between">
-                <div class="top-left">
-                  <h4>Game & mobile developer</h4>
-                  <p>Jetlight Studio, Oran</p>
-                </div>
-                <div>
-                  <a class="primary-btn" data-text="Dec '15 to Present">
-                    <span>D</span><span>e</span><span>c</span> <span>'</span
-                    ><span>1</span><span>5</span> <span>t</span><span>o</span>
-                    <span>P</span><span>r</span><span>e</span><span>s</span
-                    ><span>e</span><span>n</span><span>t</span>
-                  </a>
-                </div>
-              </div>
-              <div class="bottom-sec wow fadeIn" data-wow-duration="2s">
-                My studio is where all my freelance and side projects are
-                created, working there is a blessing and a wonderful experience.
-              </div>
-            </div>
-          </div>
+        <div class="skills__container">
+          <div>
+            <h2 class="skills__subtitle">Profesional Skills</h2>
+            <p class="skills__text">
+			
+ Currently pursuing AWS Cloud Practitioner Certification training
+ Business administration and Digital marketing promotion online courses
+.CompTIA A+ and CompTIA N+ training 
+.Advanced Business, General English and IELTS Certificates bands 6 and 6.5.
+.CCNA preparation course in Cisco networks
+.Basic offshore safety induction and emergency training (OPITO)
+.OLF accepted upgrade to the Norwegian continental shelf
+.H2S introduction (NOGEPA 0.8). Valid until 13.07.2013
+.Maximo; Database & Data Exchange for CMMMS system.
+.Subsea Training; CAMRON & DORIS, Paris, France. Subsea control system for offshore platforms.
+.Industrial Instrumentation and Controls; Addiqqa. Repairing and protecting rotating machinery.
+.Computer Networks; University of Libya, Informatics College. Network basics and an introduction to TCP/IP
+.Instrumentation and Measurements; ABB Training Centre, Genoa, Italy
+.DCS Introduction and Configuration; ABB Training Centre, Genoa, Italy
+.Tenori Configuration (operator interface); ABB Training Centre, Genoa, Italy
+.Trusted introduction and configuration; ABB Training Centre, Genoa, BOSIET; Bornasco, Pavia, Italy. Included
+.HUET (helicopter underwater escape training) and EBS.
+.Industrial Instrumentation and Report Writing, Specific Training Centre for Oil Industry
 
-          <div class="col-lg-6">
-            <div class="single-job">
-              <div class="top-sec d-flex justify-content-between">
-                <div class="top-left">
-                  <h4>Teacher</h4>
-                  <p>IGS Ibn Badis, Oran</p>
-                </div>
-                <div class="top-right">
-                  <a class="primary-btn" data-text="Jul 2017 to Present">
-                    <span>J</span><span>u</span><span>l</span> <span>2</span
-                    ><span>0</span><span>1</span><span>7</span> <span>t</span
-                    ><span>o</span> <span>P</span><span>r</span><span>e</span
-                    ><span>s</span><span>e</span><span>n</span><span>t</span>
-                  </a>
-                </div>
-              </div>
-              <div
-                class="bottom-sec wow fadeIn"
-                data-wow-duration="2s"
-                data-wow-delay="0.2s"
-              >
-                I work as an instructor at a private school during summer time.
-                I teach algorithmics and programming, Java (programming
-                language), Java Swing and JavaFX to various groups (beginner
-                level).
-              </div>
-            </div>
-          </div>
+	
 
-          <div class="col-lg-6">
-            <div class="single-job">
-              <div class="top-sec d-flex justify-content-between">
-                <div class="top-left">
-                  <h4>Volenteer</h4>
-                  <p>American Corner Oran, Oran</p>
-                </div>
-                <div class="top-right">
-                  <a class="primary-btn" data-text="Sep 2016 to Sep 2018">
-                    <span>S</span><span>e</span><span>p</span> <span>2</span
-                    ><span>0</span><span>1</span><span>6</span> <span>t</span
-                    ><span>o</span> <span>S</span><span>e</span><span>p</span>
-                    <span>2</span><span>0</span><span>1</span><span>8</span>
-                  </a>
-                </div>
-              </div>
-              <div
-                class="bottom-sec wow fadeIn"
-                data-wow-duration="2s"
-                data-wow-delay="0.4s"
-              >
-                I was filling the position of english teacher, we had one
-                session per week for a class of 20 (ish) students. Their ages
-                were between 16 to 45 and we were learning through story
-                telling, role play and dynamic activities.
-              </div>
-            </div>
-          </div>
+      </section>
 
-          <div class="col-lg-6">
-            <div class="single-job">
-              <div class="top-sec d-flex justify-content-between">
-                <div class="top-left">
-                  <h4>Vice President</h4>
-                  <p>Team Open Minds, Oran</p>
-                </div>
-                <div class="top-right">
-                  <a class="primary-btn" data-text="Apr 2016 to Present">
-                    <span>A</span><span>p</span><span>r</span> <span>2</span
-                    ><span>0</span><span>1</span><span>6</span> <span>t</span
-                    ><span>o</span> <span>A</span><span>p</span><span>r</span>
-                    <span>2</span><span>0</span><span>2</span><span>0</span>
-                  </a>
-                </div>
-              </div>
-              <div
-                class="bottom-sec wow fadeIn"
-                data-wow-duration="2s"
-                data-wow-delay="0.6s"
-              >
-                We are a group of Oran1 university students. We Like to learn,
-                code, share... We strive for an open-minded generation, we
-                spread the open-source culture. When it's open, it grows!
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Job Historyt Area Area -->
+      <section>
+        <h2 class="section-title">Experience</h2>
+		<p class="skills__text">
+		Courier with Amazon Flex, Just Eat and Uber Eats					Jan 2019 - Jan 2021
+As a Delivery Driver it was my responsibility to ensure deliveries arrive promptly to customers in a safe and efficient manner.
 
-    <!-- Start Service Area -->
-    <section class="service-area section-gap">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="section-title">
-              <h2>Skills</h2>
-              <p>
-                I am able to perform well in a variety of fields, here are some
-                of my strongest skills!
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6">
-            <div class="single-service wow fadeInUp" data-wow-duration="1s">
-              <span class="lnr lnr-rocket"></span>
-              <h4>
-                <span>Games Developement</span>
-              </h4>
-              <p>
-                Making games has always been my passion, i'm always excited
-                about working on them.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div
-              class="single-service wow fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay="0.2s"
-            >
-              <span class="lnr lnr-smartphone"></span>
-              <h4><span>Mobile Apps</span> Developement</h4>
-              <p>
-                I love creating apps that change the way people interact with
-                their smartphones!
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div
-              class="single-service wow fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay="0.4s"
-            >
-              <span class="lnr lnr-laptop"></span>
-              <h4><span>Desktop Apps</span> Developement</h4>
-              <p>
-                I'm always ready to make a custom portable robust product that
-                fits the need of any client!
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div
-              class="single-service wow fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay="0.6s"
-            >
-              <span class="lnr lnr-camera"></span>
-              <h4><span>Augmented Reality</span></h4>
-              <p>
-                Staying ahead of the game means being always equiped with the
-                latest technologies and fields.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+Amazon, Bathgate 									 Oct 2018 - Jan 2019
+Delivery Driver
+As a Delivery Driver it was my responsibility to ensure deliveries arrive promptly to customers in a safe and efficient manner. Other responsibilities included but not limited to driving safely and promptly to customers’ homes, being polite, courteous and presentable at all times, having a strong knowledge of the local area, maintaining vehicles, dealing first-hand with any customer issues in a polite and courteous manner as well as assisting in other areas of the business where required. Whilst onsite I would also obtain signature of receipt from person receiving goods to ensure orders could be tracked.	
 
-    <!-- ####################### Start Scroll to Top Area ####################### -->
-    <div id="back-top">
-      <a title="Go to Top" href="#">
-        <i class="lnr lnr-arrow-up"></i>
-      </a>
-    </div>
-    <!-- ####################### End Scroll to Top Area ####################### -->
+Glasgow Libyan School 								      Oct 2017 - May 2018
+Administrator 
+Responsible for providing general administrative support to a team of Senior Office managers by keeping meticulous administrative records, accurately recording data, administering manual and electronic filing systems, keeping the office well equipped and fully stocked of essentials as well as negotiating with office equipment suppliers and service providers. I would also ensure that all calls were dealt with in a polite and friendly manner whilst adhering to strict Data Protection regulations.
 
-    <script src="js/vendor/jquery-2.2.4.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script
-      type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"
-    ></script>
-    <script src="js/easing.min.js"></script>
-    <script src="js/hoverIntent.js"></script>
-    <script src="js/superfish.min.js"></script>
-    <script src="js/mn-accordion.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/jquery.circlechart.js"></script>
-    <script src="js/mail-script.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
-</html>
+Domino's Pizza / Papa John’s 							        	       Dec 2016 - Jun 2018
+Delivery Driver (Part Time)
+As a delivery driver it is my responsibility to ensure deliveries arrive promptly to customers in a safe and efficient manner. Other responsibilities included but not limited to: Driving safely and promptly to customers’ homes, being polite, courteous and presentable at all times, having a strong knowledge of the local area, maintaining vehicle, dealing first-hand with any customer issues in a polite and courteous manner as well as assisting in other areas of the business where required.
+
+
+
+Mellitah Oil and Gas B.V, Libyan Branch					                       Aug 2003 - Mar 2010
+Worked in the three company production plants: Mellitah Complex, Sabratha Platform and Wafa Field whereby job roles and responsibilities included:
+
+CMMS Specialist: Provide Maximo Application support for maintenance and materials departments. Monitor and resolve end user issues.
+Acting Maintenance Planning Supervisor: Schedule maintenance activities including issue work orders for both preventive & corrective maintenance, monitor backlog.
+               Team Leader: data collection project in Wafa Desert Plant. And Warehouse data collection in Mellitah complex.          These two projects were part of data collection projects for missing data from Maximo database.
+Electrical & Instrument Maintenance Planning Analyst at Wafa Field Plant: Schedule and follow-up of preventive and corrective maintenance activities for electrical & instrumental disciplines.
+DCS Technician at Wafa Field Plant Performing maintenance activities for DCS hardware & software.
+DCS Technician at the start-up and commissioning of the Mellitah Complex: Monitor and facilitate commissioning and start up processes.
+DCS Technician at loop checks and site acceptance test phases in Mellitah Complex: Test all control loops from field to control room & substations. Visual inspection and power test for all control system equipment (DCS, FGS &ESD) with ABB technicians.
+
+
+      
